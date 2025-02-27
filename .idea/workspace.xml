@@ -7,6 +7,8 @@
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Belive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Belive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/C_DiamondProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/C_DiamondProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/Basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +53,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="F_SleepThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_Multithreading.F_SleepThread" />
+  <component name="RunManager" selected="Application.C_DiamondProblem">
+    <configuration name="C_DiamondProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Interface.C_DiamondProblem" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_Multithreading.*" />
+          <option name="PATTERN" value="G_OOPS.Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C_DiamondProblem" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.I_ThreadInterrupt" />
         <item itemvalue="Application.H_ThreadJoin" />
         <item itemvalue="Application.G_Threadyield" />
-        <item itemvalue="Application.F_SleepThread" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +165,10 @@
       <workItem from="1725242149161" duration="8514000" />
       <workItem from="1725590466564" duration="3605000" />
       <workItem from="1726714873601" duration="2295000" />
+      <workItem from="1730773547117" duration="7581000" />
+      <workItem from="1737010652502" duration="2065000" />
+      <workItem from="1740632331345" duration="854000" />
+      <workItem from="1740633231135" duration="3930000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />

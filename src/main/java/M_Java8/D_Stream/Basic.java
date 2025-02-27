@@ -36,7 +36,8 @@ public class Basic {
 
 /*
  (java.util.stream package)
- -Stream(is a interface) used to perform bulk data operations on collections (like lists, sets, arrays) and stream of elements . The Stream API allows you to process data in a functional style, making the code more concise, readable, and potentially parallelizable.
+ -Stream is a sequence of elements that can be processed in a functional and declarative way. Think of it as a pipeline through which data flows, and you can perform operations on that data as it passes through the pipeline.
+ The Stream API allows you to process data in a functional style, making the code more concise, readable, and potentially parallelizable.
  -This Stream is different from IO stream.
  -steps
    Get Stream instance -->  use streams methods(method chaining)--->collect data

@@ -1,62 +1,132 @@
-import java.util.HashSet;
-import java.util.Set;
+import java.time.LocalDate;
+
+
+//class Payment {
+//    public void processPayment(double amount) {
+//        System.out.println("Processing generic payment of $" + amount);
+//    }
+//}
+
+//class CreditCardPayment extends Payment {
+//    @Override
+//    public void processPayment(double amount) {
+//        System.out.println("Processing credit card payment of $" + amount);
+//    }
+//}
+
+//class PayPalPayment extends Payment {
+//    @Override
+//    public void processPayment(double amount) {
+//        System.out.println("Processing PayPal payment of $" + amount);
+//    }
+//}
+
+
+class TechEazy {
+    private String tenantEntityId = "lms";
+    private String tenantId = "tech_eazy";
+
+    public String getTenantEntityId() {
+        return tenantEntityId;
+    }
+
+    public void setTenantEntityId(String tenantEntityId) {
+        this.tenantEntityId = tenantEntityId;
+    }
+
+    public String getTenantId() {
+        return tenantId;
+    }
+
+    public void setTenantId(String tenantId) {
+        this.tenantId = tenantId;
+    }
+
+    @Override
+    public String toString() {
+        return "TechEazy{" +
+                "tenantEntityId='" + tenantEntityId + '\'' +
+                ", tenantId='" + tenantId + '\'' +
+                '}';
+    }
+}
+
+class User extends TechEazy {
+    private String email;
+    private LocalDate createDate;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public LocalDate getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(LocalDate createDate) {
+        this.createDate = createDate;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "techEazy createDate " + super.getTenantEntityId() + "\\" +
+                "email='" + email + '\'' +
+                ", createDate=" + createDate +
+                '}';
+    }
+}
+
+class User1 extends TechEazy {
+    private String email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+}
+
+
+@FunctionalInterface
+interface MyCustomFI {
+    String doSomething(String expression);
+}
+
 
 public class Belive {
-
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
-    public ListNode modifiedList(int[] nums, ListNode head) {
-        Set<Integer> set = new HashSet<>();
-        for(int num : nums){
-             set.add(num);
-        }
-        ListNode ref = new ListNode(-1);
-        ref.next = head;
-
-        ListNode prev = ref;
-        ListNode curr = head;
-        while (curr != null) {
-           if(set.contains(curr.val)){
-               prev.next = curr.next ;
-               curr = curr.next ;
-           }else{
-                prev = curr ;
-                curr = curr.next ;
-           }
-        }
-
-        return ref.next ;
-    }
-
     public static void main(String[] args) {
 
-        // Calendar calendar = Calendar.getInstance();
+//        String paymentType =  "CreditCardPayment" ; // Your-payment-type-coming-from-client-side
+//        double amount = 0.0;    // Your-amount-type-coming-from-client-side;
+//
+//        Payment payement ;
+//
+//        if(paymentType.equalsIgnoreCase("CreditCardPayment")){
+//             payement = new CreditCardPayment();
+//        }else if(paymentType.equalsIgnoreCase("PayPalPayment")) {
+//             payement = new PayPalPayment();
+//        }else {
+//             payement = new Payment() ;
+//        }
+//
+//        payement.processPayment(amount);
 
-        // // Set the calendar to 25 April 2024
-        // calendar.set(Calendar.YEAR, 2024);
-        // calendar.set(Calendar.MONTH, Calendar.MARCH);
-        // calendar.set(Calendar.DAY_OF_MONTH, 26);
+//     User user = new User();
+//     user.setEmail("Hello");
+//     user.setCreateDate(LocalDate.now());
+//        System.out.println(user);
 
-        // // Get the Date object representing 25 April 2024
-        // Date specificDate = calendar.getTime();
-        // Date todayDate = new Date();
-        // System.out.println(getDifferenceInMonths(specificDate, todayDate));
+        MyCustomFI myCustomFI = expression -> expression ;
+        myCustomFI.doSomething("Hello");
+
+
     }
 }
 /*
