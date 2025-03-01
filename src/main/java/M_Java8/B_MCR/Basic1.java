@@ -21,7 +21,7 @@ class Product {
 
 @FunctionalInterface
 interface ProductFactory {
-    Product create(String name, double price);
+    Product createProduct(String name, double price);
 }
 
 public class Basic1 {
@@ -31,7 +31,7 @@ public class Basic1 {
          ProductFactory factory = Product::new;
         
          // Create a new product using the factory
-         Product laptop = factory.create("Laptop", 999.99);
+         Product laptop = factory.createProduct("Laptop", 999.99);
          
          // Display product details
          System.out.println("Product Name: " + laptop.getName());

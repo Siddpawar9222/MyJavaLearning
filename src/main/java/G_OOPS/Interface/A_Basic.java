@@ -1,61 +1,63 @@
 package G_OOPS.Interface;
 
-interface Vehicle{
-        String color = "blue" ;
+interface Vehicle {
+    String color = "blue";
 
-        void start() ;
-        void accelerate();  
-        void brake();
-        String numberplate() ;
+    void start();
 
+    void accelerate();
 
-        //since java 8 (default and static methods allowed) 
-        default void stop(){
-            performOperation();
-            System.out.println("Vehicle Stopped");
-        }
+    void brake();
 
-        static void repair() {
-         System.out.println("Vehicle repaired.");
-        }
+    String numberplate();
 
-        //since java 9 (private methods are allowed)
-         private void performOperation() {
-         System.out.println("Performing operation.");
-        }
-} 
+    //since java 8 (default and static methods allowed)
+    default void stop() {
+        performOperation();
+        System.out.println("Vehicle Stopped");
+    }
 
-class Bicycle implements Vehicle{
-     
+    static void repair() {
+        System.out.println("Vehicle repaired.");
+    }
+
+    //since java 9 (private methods are allowed)
+    private void performOperation() {
+        System.out.println("Performing operation.");
+    }
+}
+
+class Bicycle implements Vehicle {
+
     @Override
     public void start() {
-       System.out.println("Bicycle started");
+        System.out.println("Bicycle started");
     }
 
     @Override
     public void accelerate() {
-         System.out.println("Bicycle Accelerate");
+        System.out.println("Bicycle Accelerate");
     }
 
     @Override
     public void brake() {
-         System.out.println("Bicycle braked");
+        System.out.println("Bicycle braked");
     }
 
     @Override
     public String numberplate() {
-        return "MH-42 92222" ;
+        return "MH-42 92222";
     }
 
 }
 //similary for car and Bike
 
 public class A_Basic {
-     public static void main(String[] args) {
-         Vehicle.repair();  
-         Vehicle b = new Bicycle();
+    public static void main(String[] args) {
+        Vehicle.repair();
+        Vehicle b = new Bicycle();
 
-     }
+    }
 }
 
 /*

@@ -50,4 +50,7 @@ public class Basic {
 
  Note :
  paramters of method to be refer must equal to functional interface method paramter.
+
+ In Simple language :
+   Method and Constructor References is giving implementation of existing method to functional interface abstract method.
  */
