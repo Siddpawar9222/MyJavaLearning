@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/C_ImpFunctionalInterfaces/FuctionPackageInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/A_Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Interface/A_Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/B_MCR/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/B_MCR/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/B_MCR/Basic1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/B_MCR/Basic1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,48 +24,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Siddpawar9222"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Siddpawar9222/myJavaLearning.git",
+    "accountId": "982d9c7c-ded4-49a7-b3b9-43d89fd0f53a"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
   <component name="ProjectId" id="2hxDSTICNNEoSFya8SgvjIsqkno" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicsOfStreams.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FuctionPackageInterfaces">
+}]]></component>
+  <component name="RunManager" selected="Application.BasicsOfStreams">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="M_Java8.B_MCR.Basic" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="M_Java8.B_MCR.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicsOfStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.BasicsOfStreams" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="I_ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_Multithreading.I_ThreadInterrupt" />
-      <module name="MyJavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="J_Multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="J_Multithreading.WaitNotifyNotifyAll.Main" />
       <module name="MyJavaLearning" />
@@ -129,13 +143,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicsOfStreams" />
         <item itemvalue="Application.FuctionPackageInterfaces" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.C_DiamondProblem" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.I_ThreadInterrupt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -179,6 +201,7 @@
       <workItem from="1740633231135" duration="9022000" />
       <workItem from="1740674345379" duration="24000" />
       <workItem from="1740811475487" duration="3892000" />
+      <workItem from="1741021125008" duration="4633000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />
