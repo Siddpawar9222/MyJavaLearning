@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Siddpawar9222"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Siddpawar9222&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Siddpawar9222/myJavaLearning.git",
-    "accountId": "982d9c7c-ded4-49a7-b3b9-43d89fd0f53a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Siddpawar9222/myJavaLearning.git&quot;,
+    &quot;accountId&quot;: &quot;982d9c7c-ded4-49a7-b3b9-43d89fd0f53a&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,9 +46,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hxDSTICNNEoSFya8SgvjIsqkno" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BasicsOfStreams.executor": "Run",
+    "Application.IntermediateOperations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -75,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BasicsOfStreams">
+  <component name="RunManager" selected="Application.IntermediateOperations">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="M_Java8.B_MCR.Basic" />
       <module name="MyJavaLearning" />
@@ -128,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="J_Multithreading.WaitNotifyNotifyAll.Main" />
+    <configuration name="IntermediateOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.IntermediateOperations" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="J_Multithreading.WaitNotifyNotifyAll.*" />
+          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntermediateOperations" />
         <item itemvalue="Application.BasicsOfStreams" />
         <item itemvalue="Application.FuctionPackageInterfaces" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.C_DiamondProblem" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +203,7 @@
       <workItem from="1740674345379" duration="24000" />
       <workItem from="1740811475487" duration="3892000" />
       <workItem from="1741021125008" duration="4633000" />
+      <workItem from="1741089546574" duration="6536000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />
