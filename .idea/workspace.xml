@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/TerminalOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +61,7 @@
   "keyToString": {
     "Application.BasicsOfStreams.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
+    "Application.TerminalOperations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -76,7 +79,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IntermediateOperations">
+  <component name="RunManager" selected="Application.TerminalOperations">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="M_Java8.B_MCR.Basic" />
       <module name="MyJavaLearning" />
@@ -96,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C_DiamondProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Interface.C_DiamondProblem" />
-      <module name="MyJavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_OOPS.Interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TerminalOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.TerminalOperations" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.IntermediateOperations" />
         <item itemvalue="Application.BasicsOfStreams" />
         <item itemvalue="Application.FuctionPackageInterfaces" />
         <item itemvalue="Application.Basic" />
-        <item itemvalue="Application.C_DiamondProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +207,7 @@
       <workItem from="1740811475487" duration="3892000" />
       <workItem from="1741021125008" duration="4633000" />
       <workItem from="1741089546574" duration="6536000" />
+      <workItem from="1741157615092" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />

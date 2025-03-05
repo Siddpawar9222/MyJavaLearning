@@ -5,27 +5,22 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
+import static M_Java8.D_Stream.New.EmployeeData.employees;
+
 public class BasicsOfStreams {
 
     public static void main(String[] args) {
         // Create Stream from list and set using stream method
-        List<Employee>  employees = List.of(
-                new Employee("Siddhesh",45222) ,
-                new Employee("Santosh",50222) ,
-                new Employee("manisha",41222) ,
-                new Employee("ram",96322)
-        );
-
         employees.stream()
                 .filter(str->str.getName().startsWith("S"))
                 .forEach(System.out::println);
 
         // Create Stream from Arrays
         Employee[] employeesArray = {
-                new Employee("Siddhesh",45222) ,
-                new Employee("Santosh",50242) ,
-                new Employee("manisha",41223) ,
-                new Employee("ram",96322)
+                new Employee("John",45222) ,
+                new Employee("Jasmine",50242) ,
+                new Employee("carry",41223) ,
+                new Employee("natalia",96322)
         };
 
         Arrays.stream(employeesArray)
