@@ -23,10 +23,16 @@
 
 ## Keywords 
 * access modifiers
-* final,super, static,abstract, synchronized, volatile, transient
+* static,super,final,extends, abstract,implements, synchronized, volatile, transient
 
 ## Encapsulation
+* Getters and setters
 ## Abstraction
+* Abstract class
+* Interfaces
+  - Types
+  - Diamond problem
+  - Functional interface implementation
 ## Polymorphisms
 * Method overloading
 * Varargs

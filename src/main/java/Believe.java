@@ -1,26 +1,6 @@
-interface A {
-    default void show() {
-        System.out.println("show method executed from A");
-    }
-}
-
-class B {
-    public void show() {
-        System.out.println("show method executed from B");
-    }
-}
-
-public class Believe extends B implements A  {
-
-    @Override
-    public void show() {
-        System.out.println("show method executed from A");
-    }
-
+public class Believe {
     public static void main(String[] args) {
-        Believe believe = new Believe();
-        believe.show();
-    }
+        int arr[] = {2, 4, 8, 7, 7, 9, 3};}
 }
 /*
 https://leetcode.com/problems/grumpy-bookstore-owner/solutions/

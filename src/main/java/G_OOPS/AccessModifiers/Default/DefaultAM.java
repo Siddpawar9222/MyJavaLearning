@@ -1,4 +1,4 @@
-package G_OOPS.Access_Modifiers.Default;
+package G_OOPS.AccessModifiers.Default;
 
 //The default access modifier is used when no access modifier is specified for a class, method, or field. It means that the class, method, or field is accessible only within the same package . Outside method we cannot access class
 

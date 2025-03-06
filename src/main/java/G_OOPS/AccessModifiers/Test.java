@@ -5,11 +5,11 @@
 //Classes, methods, or data members that are declared as public are accessible from everywhere in the program. There is no restriction on the scope of public data members.
 
 
-package G_OOPS.Access_Modifiers;
+package G_OOPS.AccessModifiers;
 
 //import G_OOPS.Access_Modifiers.Default.DefaultAMClass;
 
- import G_OOPS.Access_Modifiers.Protected.Person;
+ import G_OOPS.AccessModifiers.Protected.Person;
 
 
 //Default 

@@ -1,4 +1,4 @@
-package G_OOPS.Access_Modifiers.Protected;
+package G_OOPS.AccessModifiers.Protected;
 
 public class Person {
 	protected String name;

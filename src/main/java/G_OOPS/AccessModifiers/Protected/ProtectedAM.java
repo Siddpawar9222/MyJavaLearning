@@ -1,4 +1,4 @@
-package G_OOPS.Access_Modifiers.Protected;
+package G_OOPS.AccessModifiers.Protected;
 
 //In Java, the protected access modifier is used to declare a member (a field, method or inner class) of a class, that can be accessed by the class itself, its subclasses, and other classes in the same package as the declaring class.
 

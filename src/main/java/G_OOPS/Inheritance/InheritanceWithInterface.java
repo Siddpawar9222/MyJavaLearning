@@ -9,11 +9,17 @@ class B {
     public void show() {
         System.out.println("show method executed from B");
     }
+
+    public final void finalShow() {
+        System.out.println("finalShow method executed from B");
+    }
 }
 public class InheritanceWithInterface extends B implements A {
+
     public static void main(String[] args) {
         InheritanceWithInterface inheritanceWithInterface = new InheritanceWithInterface();
         inheritanceWithInterface.show();
+        inheritanceWithInterface.finalShow();
     }
 }
 /*

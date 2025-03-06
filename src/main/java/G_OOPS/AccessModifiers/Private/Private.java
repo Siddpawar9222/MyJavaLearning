@@ -1,4 +1,4 @@
-package G_OOPS.Access_Modifiers.Private;
+package G_OOPS.AccessModifiers.Private;
 
 //In Java, the private access modifier is used to restrict access to a member (a field, method, or nested class) of a class to only that class itself. A private member cannot be accessed from outside the class, not even from its subclasses.
 

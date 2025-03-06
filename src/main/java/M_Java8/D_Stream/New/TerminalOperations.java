@@ -1,6 +1,8 @@
 package M_Java8.D_Stream.New;
 
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -25,7 +27,7 @@ public class TerminalOperations {
                 .map(Employee::getName)
                 .collect(Collectors.toList());
 
-       // Collect names into a Set
+        // Collect names into a Set
         Set<String> uniqueNames = employees.stream()
                 .map(emp -> emp.name)
                 .collect(Collectors.toSet());
@@ -49,6 +51,69 @@ public class TerminalOperations {
                 .map(Employee::getSalary)
                 .reduce(0, Integer::sum);
         System.out.println(salarySum);
+
+      /*
+      4. Matching Operations (anyMatch, allMatch, noneMatch) .Takes Predicate
+       These methods return true or false based on conditions.
+
+      Example (Industrial Use Case - Checking Employee Salaries)
+
+       anyMatch: Check if any employee has a salary greater than 60000
+       allMatch: Check if all employees have a salary greater than 40000
+       noneMatch: Check if no employee has a salary of 100000
+      * */
+
+        boolean anyHighSalary = employees.stream().anyMatch(emp -> emp.salary > 60000);
+        boolean allAbove40k = employees.stream().allMatch(emp -> emp.salary > 40000);
+        boolean noneAbove100k = employees.stream().noneMatch(emp -> emp.salary == 100000);
+
+        System.out.println("Any employee with salary > 60000? " + anyHighSalary);
+        System.out.println("All employees have salary > 40000? " + allAbove40k);
+        System.out.println("No employee has salary 100000? " + noneAbove100k);
+
+
+        /*
+        5. findFirst() & findAny()
+           findFirst(): Returns the first element from the stream.
+           findAny(): Returns any element (useful in parallel streams).
+           Example (Industrial Use Case - Get First Employee with Salary > 50000)
+        * */
+
+        Optional<Employee> firstHighSalary = employees.stream()
+                .filter(emp -> emp.salary > 50000)
+                .findFirst();
+
+        firstHighSalary.ifPresent(emp -> System.out.println("First High Salary Employee: " + emp.name));
+
+        /*
+        6. count(Comparator)
+        Counts the number of elements in the stream.
+        Example (Industrial Use Case - Counting Employees with High Salary)
+        * */
+
+        long highSalaryCount = employees.stream()
+                .filter(employee -> employee.getSalary() > 20000)
+                .count();
+
+        System.out.println(highSalaryCount);
+
+
+        /*
+        7. min() & max()
+        min(Comparator): Finds the smallest element.
+        max(Comparator): Finds the largest element.
+        Example (Industrial Use Case - Find Min & Max Salary Employee)
+        * */
+
+        Optional<Employee> minSalaryEmp = employees.stream()
+                .min(Comparator.comparing(emp -> emp.salary));
+
+        Optional<Employee> maxSalaryEmp = employees.stream()
+                .max(Comparator.comparing(emp -> emp.salary));
+
+        minSalaryEmp.ifPresent(emp -> System.out.println("Employee with Min Salary: " + emp.name));
+        maxSalaryEmp.ifPresent(emp -> System.out.println("Employee with Max Salary: " + emp.name));
+
     }
 }
 /*
