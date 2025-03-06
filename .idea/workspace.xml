@@ -5,11 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="compareTo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/TerminalOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/InheritanceWithInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/BankSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/IntermediateOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Belive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Believe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic_OOPS/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic_OOPS/Variable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic/Variable1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic_OOPS/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Basic/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/Constructor/InheritanceWithConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/A1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/Constructor/InheritanceWithConstructor1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/A2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/ContructorChaining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/A_Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/A_Inheritance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/FinalAndSealedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/InheritanceWithMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/InheritanceWithMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/CTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/DMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/DMD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/DMD1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/DMD1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/MethodOverriding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Method_Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/MethodOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/StaticVsDynamicBinding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/StaticVsDynamicBinding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/varargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/Varargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multiplication_table_of_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Multi_table/multitable.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/MyException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/Siddhesh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/java_Docs_basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/practice1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/jquery-ui.overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/legal/COPYRIGHT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/practice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/resources/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/resources/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_glass_55_fbf9ee_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_glass_65_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_glass_75_dadada_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_glass_75_e6e6e6_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-bg_highlight-soft_75_cccccc_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script-dir/jquery-ui.structure.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/New folder/Java Docs/Java_file/sp/type-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/syllabus-covered.md" beforeDir="false" afterPath="$PROJECT_DIR$/syllabus-covered.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +130,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A.executor": "Run",
+    "Application.A1 (1).executor": "Run",
+    "Application.A1.executor": "Run",
     "Application.BasicsOfStreams.executor": "Run",
+    "Application.Believe.executor": "Run",
+    "Application.InheritanceWithInterface.executor": "Run",
     "Application.IntermediateOperations.executor": "Run",
     "Application.TerminalOperations.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -79,13 +156,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TerminalOperations">
-    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_Java8.B_MCR.Basic" />
+  <component name="RunManager" selected="Application.InheritanceWithInterface">
+    <configuration name="A1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.A1" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_Java8.B_MCR.*" />
+          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +170,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicsOfStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.BasicsOfStreams" />
+    <configuration name="Believe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Believe" />
+      <module name="MyJavaLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceWithConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.Constructor.InheritanceWithConstructor" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
+          <option name="PATTERN" value="G_OOPS.Inheritance.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuctionPackageInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_Java8.C_ImpFunctionalInterfaces.FuctionPackageInterfaces" />
+    <configuration name="InheritanceWithConstructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.Constructor.InheritanceWithConstructor1" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_Java8.C_ImpFunctionalInterfaces.*" />
+          <option name="PATTERN" value="G_OOPS.Inheritance.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +203,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntermediateOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.IntermediateOperations" />
+    <configuration name="InheritanceWithContructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.InheritanceWithContructor1" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
+          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.InheritanceWithInterface" />
+      <module name="MyJavaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TerminalOperations" />
-        <item itemvalue="Application.IntermediateOperations" />
-        <item itemvalue="Application.BasicsOfStreams" />
-        <item itemvalue="Application.FuctionPackageInterfaces" />
-        <item itemvalue="Application.Basic" />
+        <item itemvalue="Application.InheritanceWithInterface" />
+        <item itemvalue="Application.Believe" />
+        <item itemvalue="Application.InheritanceWithConstructor1" />
+        <item itemvalue="Application.InheritanceWithContructor1" />
+        <item itemvalue="Application.InheritanceWithConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +305,7 @@
       <workItem from="1741021125008" duration="4633000" />
       <workItem from="1741089546574" duration="6536000" />
       <workItem from="1741157615092" duration="2139000" />
+      <workItem from="1741226820608" duration="6986000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />
@@ -237,6 +335,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="compareTo" />
     <option name="LAST_COMMIT_MESSAGE" value="compareTo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/G_OOPS/Polymorphism/DynamicMethodDispatch/MethodOverriding.java</url>
+          <line>24</line>
+          <properties class="G_OOPS.Polymorphism.DynamicMethodDispatch.Dog" method="getId">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaLearning$Belive.ic" NAME="Belive Coverage Results" MODIFIED="1718530352793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

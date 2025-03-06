@@ -56,6 +56,6 @@ public class InheritanceWithMethods {
 
 /*
 Note:  In Java, every class implicitly extends the Object class, and the Object class provides a default implementation of the hashCode() method. 
- //*--> Here jvm wil find is there any hashCode() method in daugher , in our case there is not , so it will search in Mother class , Mother also doesnt have ,But Mother extends Object class implicity . Hence Object class hasCode will excute based on the memory addresses of the object .
+ //*--> Here jvm wil find is there any hashCode() method in daugher , in our case there is not , so it will search in Mother class , Mother also doesnt have ,But Mother extends Object class implicity . Hence Object class hasCode method will excute based on the memory addresses of the daugher object .
  //*--> same for Mother class 
  */

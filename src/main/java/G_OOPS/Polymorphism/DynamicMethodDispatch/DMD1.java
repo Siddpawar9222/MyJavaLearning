@@ -13,11 +13,6 @@ interface Parent1 extends Grandparent1 {
 }
 
 class Children implements Parent1 {
-
-	void director() {
-		System.out.println("Children Director");
-	}
-
 	@Override
 	public void dance() {
 		System.out.println("Children Dance");
@@ -31,13 +26,17 @@ class Children implements Parent1 {
 	@Override
 	public void actor() {
 		System.out.println("Children Actor");
-
 	}
 
 	@Override
 	public void producer() {
        System.out.println("Children Producer");
   }
+
+
+	void director() {
+		System.out.println("Children Director");
+	}
 
 }
 

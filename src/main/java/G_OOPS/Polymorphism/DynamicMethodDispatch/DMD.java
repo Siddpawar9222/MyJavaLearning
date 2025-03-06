@@ -37,19 +37,16 @@ public class DMD {
 		
 		obj =new C();
 		obj.name();
-	   //obj.place() ; //*
+	    //obj.place() ; //*
 		
-	   //obj = new D(); //*
-		
-		
-
+	   //obj = new D(); //**
 	}
 
 }
 
 
 /*
--We have same object reference obj and we are changing the type of objects and we are getting different  result(behavior) which is called as runtime polymorphism . 
+-We have same object reference obj and we are changing the type of objects and we are getting different  result(behavior) which is called as runtime polymorphism .
 In short i come to know that Which method will call only if i run this program(At runtime)
 This is also known as Dynamic Method Dispatch
 

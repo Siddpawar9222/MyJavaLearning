@@ -22,12 +22,23 @@
 * constructor
 
 ## Keywords 
-* access modifiers 
-* final, static,abstract, synchronized, volatile, transient
+* access modifiers
+* final,super, static,abstract, synchronized, volatile, transient
 
 ## Encapsulation
 ## Abstraction
 ## Polymorphisms
-## Inheritance
+* Method overloading
+* Varargs
+* Method overriding
+* static(early binding) and runtime(late binding) polymorphism
+* Dynamic Method Dispatch with inheritance, interfaces
+* Covariant return type
 
+## Inheritance
+* Inheritance Basics and types
+* Inheritance with constructors, multilevel inheritance
+* Inheritance with methods
+* Constructor chaining using this and super keyword
+* Inheritance with interfaces
 
