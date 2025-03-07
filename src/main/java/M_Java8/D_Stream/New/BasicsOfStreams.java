@@ -36,9 +36,9 @@ public class BasicsOfStreams {
         //Infinite Streams using  Stream.generate() and Stream.iterate()
 
         Stream.generate(()->{
-             Random random = new Random();
-             return String.format("%06d", random.nextInt(1000000));
-        })
+                    Random random = new Random();
+                    return String.format("%06d", random.nextInt(1000000));
+                })
                 .limit(5)
                 .forEach(System.out::println);
 

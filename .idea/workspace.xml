@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="Stream TerminalOperations and oops revision">
+    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="oops revision complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/SpecializedStreams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/B_AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/B_AnonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/C_LocalInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/C_LocalInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/ReferenceVariable/A_Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/ReferenceVariable/A_Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/BasicsOfStreams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,36 +58,37 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.A.executor": "Run",
-    "Application.A1 (1).executor": "Run",
-    "Application.A1.executor": "Run",
-    "Application.A_Basic.executor": "Run",
-    "Application.BasicsOfStreams.executor": "Run",
-    "Application.Believe.executor": "Run",
-    "Application.InheritanceWithInterface.executor": "Run",
-    "Application.IntermediateOperations.executor": "Run",
-    "Application.TerminalOperations.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.A.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.A1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.A_Basic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicsOfStreams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Believe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InheritanceWithInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntermediateOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpecializedStreams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TerminalOperations.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.A_Basic">
+}</component>
+  <component name="RunManager" selected="Application.SpecializedStreams">
     <configuration name="A_Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_OOPS.ReferenceVariable.A_Basic" />
       <module name="MyJavaLearning" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceWithConstructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.Constructor.InheritanceWithConstructor1" />
+    <configuration name="InheritanceWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.InheritanceWithInterface" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="G_OOPS.Inheritance.Constructor.*" />
+          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceWithInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.InheritanceWithInterface" />
+    <configuration name="SpecializedStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M_Java8.D_Stream.New.SpecializedStreams" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
+          <option name="PATTERN" value="M_Java8.D_Stream.New.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpecializedStreams" />
         <item itemvalue="Application.A_Basic" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.Believe" />
         <item itemvalue="Application.InheritanceWithInterface" />
-        <item itemvalue="Application.InheritanceWithConstructor1" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,10 @@
       <workItem from="1741157615092" duration="2139000" />
       <workItem from="1741226820608" duration="13484000" />
       <workItem from="1741276889531" duration="4702000" />
-      <workItem from="1741313337261" duration="6999000" />
+      <workItem from="1741313337261" duration="12356000" />
+      <workItem from="1741365206956" duration="1894000" />
+      <workItem from="1741367160282" duration="2749000" />
+      <workItem from="1741369984759" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />
@@ -239,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741281742443</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oops revision complete">
+      <option name="closed" value="true" />
+      <created>1741332468589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741332468589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +271,8 @@
     <MESSAGE value="compareTo" />
     <MESSAGE value="oops revision" />
     <MESSAGE value="Stream TerminalOperations and oops revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream TerminalOperations and oops revision" />
+    <MESSAGE value="oops revision complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops revision complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,6 +288,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyJavaLearning$Belive.ic" NAME="Belive Coverage Results" MODIFIED="1718530352793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
