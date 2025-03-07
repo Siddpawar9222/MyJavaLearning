@@ -86,6 +86,9 @@ TV remote1 = new TV("samsung", "smart tv");
    remote1--> Object reference
    new TV("samsung", "smart tv")--> Object
 
-Think  Object reference like remote1  which used to access Tv Object   
+Think  Object reference like remote1  which used to access Tv Object
+
+Draw stack and heap diagram, you will understand how remote1, remote2, remote3 are created.
+Internally use the concepts of stack frame and heap for method creation.
        
  */

@@ -48,3 +48,17 @@
 * Constructor chaining using this and super keyword
 * Inheritance with interfaces
 
+## Others
+* Nested Classes
+   - non-static class
+     - member inner class
+     - local inner class
+     - anonymous inner class
+   - static class
+* Reference Variable
+* Object class and its method
+* Generics
+* Reflections
+
+
+

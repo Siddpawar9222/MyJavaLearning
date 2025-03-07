@@ -41,6 +41,6 @@ Anonymous inner class:
 - It is an inner class without a name and for which only a single object is created . class without name .
 - An anonymous inner class can be useful when making an instance of an object with certain "extras" such as overloading methods of a class or interface, without having to actually subclass a class.
 -inner class can be created in two ways:
-    Class (may be abstract or concrete).    
+    Class (maybe abstract or concrete).
 	Interface
  */

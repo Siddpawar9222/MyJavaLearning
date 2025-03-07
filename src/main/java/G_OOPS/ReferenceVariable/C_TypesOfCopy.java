@@ -13,7 +13,7 @@ class Employee implements Cloneable {
     public Employee(int id, String name, List<String> skills) {
         this.id = id;
         this.name = name;
-        this.skills = new ArrayList<>(skills); // IMP ---> i did miskate here
+        this.skills = new ArrayList<>(skills); // IMP ---> i did mistake here
     }
 
     public int getId() {
@@ -125,7 +125,7 @@ Deep Copy :
  Need to write custom logic in clone method .
  Logic might be : 
     emp.skills=new ArrayList<>(this.skills);
-      Here we create new intance of ArrayList and add all existing elements inside it. So list independent to old one.
+      Here we create new instance of ArrayList and add all existing elements inside it. So list independent to old one.
 
 Lazy Copy : 
 Lazy Copy is used when you might generally need Deep Copy, but are not sure whether it is really necessary. Deep Copy is generally an expensive operation. If you do it unconditionally in 100% of cases and then discover that you only needed it in 10% of objects, then the efforts spent on Deep-Copying the other 90% of objects were wasted.

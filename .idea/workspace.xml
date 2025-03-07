@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="oops revision">
+    <list default="true" id="34f7d3b8-bca0-41cb-b576-0dc2762e086c" name="Changes" comment="Stream TerminalOperations and oops revision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Believe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Believe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Access_Modifiers/Default/DefaultAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/AccessModifiers/Default/DefaultAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Access_Modifiers/Private/Private.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/AccessModifiers/Private/Private.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Access_Modifiers/Protected/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/AccessModifiers/Protected/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Access_Modifiers/Protected/ProtectedAM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/AccessModifiers/Protected/ProtectedAM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Access_Modifiers/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/AccessModifiers/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/InheritanceWithInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/Inheritance/InheritanceWithInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/TerminalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/M_Java8/D_Stream/New/TerminalOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syllabus-covered.md" beforeDir="false" afterPath="$PROJECT_DIR$/syllabus-covered.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/B_AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/B_AnonymousInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/C_LocalInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/NestedClasses/C_LocalInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/G_OOPS/ReferenceVariable/A_Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G_OOPS/ReferenceVariable/A_Basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,7 @@
     "Application.A.executor": "Run",
     "Application.A1 (1).executor": "Run",
     "Application.A1.executor": "Run",
+    "Application.A_Basic.executor": "Run",
     "Application.BasicsOfStreams.executor": "Run",
     "Application.Believe.executor": "Run",
     "Application.InheritanceWithInterface.executor": "Run",
@@ -78,6 +73,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -92,13 +88,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TerminalOperations">
-    <configuration name="A1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.A1" />
+  <component name="RunManager" selected="Application.A_Basic">
+    <configuration name="A_Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="G_OOPS.ReferenceVariable.A_Basic" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
+          <option name="PATTERN" value="G_OOPS.ReferenceVariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,38 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceWithConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.Constructor.InheritanceWithConstructor" />
-      <module name="MyJavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_OOPS.Inheritance.Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InheritanceWithConstructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.Constructor.InheritanceWithConstructor1" />
       <module name="MyJavaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="G_OOPS.Inheritance.Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InheritanceWithContructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="G_OOPS.Inheritance.InheritanceWithContructor1" />
-      <module name="MyJavaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="G_OOPS.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A_Basic" />
         <item itemvalue="Application.TerminalOperations" />
         <item itemvalue="Application.Believe" />
         <item itemvalue="Application.InheritanceWithInterface" />
         <item itemvalue="Application.InheritanceWithConstructor1" />
-        <item itemvalue="Application.InheritanceWithContructor1" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +212,8 @@
       <workItem from="1741089546574" duration="6536000" />
       <workItem from="1741157615092" duration="2139000" />
       <workItem from="1741226820608" duration="13484000" />
-      <workItem from="1741276889531" duration="3259000" />
+      <workItem from="1741276889531" duration="4702000" />
+      <workItem from="1741313337261" duration="6999000" />
     </task>
     <task id="LOCAL-00001" summary="compareTo">
       <option name="closed" value="true" />
@@ -260,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741246906307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Stream TerminalOperations and oops revision">
+      <option name="closed" value="true" />
+      <created>1741281742443</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741281742443</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="compareTo" />
     <MESSAGE value="oops revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="oops revision" />
+    <MESSAGE value="Stream TerminalOperations and oops revision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stream TerminalOperations and oops revision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
