@@ -1,4 +1,4 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.Comparator;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static M_Java8.D_Stream.New.EmployeeData.employees;
+import static M_Java8.D_Stream.EmployeeData.employees;
 
 public class TerminalOperations {
     public static void main(String[] args) {

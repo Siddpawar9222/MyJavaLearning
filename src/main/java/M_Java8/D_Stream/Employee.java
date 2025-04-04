@@ -1,14 +1,20 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.List;
 
 public class Employee {
+    int id ;
     String name;
     Integer salary;
     List<String> skills ;
 
     public Employee() {
 
+    }
+
+    public Employee(int id ,String name) {
+        this.id=id ;
+        this.name = name;
     }
 
     public Employee(String name, Integer salary) {
@@ -19,6 +25,14 @@ public class Employee {
     public Employee(String name, List<String> skills){
          this.name=name;
          this.skills = skills;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -1,10 +1,10 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.Comparator;
 import java.util.List;
 
-import static M_Java8.D_Stream.New.EmployeeData.employees;
-import static M_Java8.D_Stream.New.EmployeeData.employeesWithSkills;
+import static M_Java8.D_Stream.EmployeeData.employees;
+import static M_Java8.D_Stream.EmployeeData.employeesWithSkills;
 
 public class IntermediateOperations {
     public static void main(String[] args) {

@@ -1,6 +1,33 @@
+import java.util.Arrays;
+import java.util.Stack;
+
 public class Believe {
+    int maxWater(int arr[]){
+       int n = arr.length;
+       int waterTrapped = 0 ;
+        Stack<Integer> stack = new Stack<>(); // Element will store in increasing order
+        for (int i = 0; i < n; i++) {
+             // i = right
+             while (!stack.isEmpty() && stack.peek()<arr[i]){
+                  int middle = stack.pop();
+                  if(stack.isEmpty()){
+                       break;
+                  }
+                  int left = stack.peek();
+                  int distance = i - left -1 ;
+                  int minHeight = Math.min(arr[left],arr[i])-arr[middle];
+                  if(distance>0 && minHeight>0){
+                      waterTrapped += distance * minHeight;
+                  }
+             }
+             stack.push(i);
+        }
+
+        return waterTrapped;
+    }
     public static void main(String[] args) {
-        int arr[] = {2, 4, 8, 7, 7, 9, 3};}
+
+    }
 }
 /*
 https://leetcode.com/problems/grumpy-bookstore-owner/solutions/

@@ -1,8 +1,18 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.List;
 
 public class EmployeeData {
+
+    static List<Employee> employeesWithId = List.of(
+         new Employee(1,"Siddhesh"),
+         new Employee(2,"Santosh"),
+         new Employee(3,"manisha"),
+         new Employee(4,"ram"),
+         new Employee(5,"karan"),
+         new Employee(6,"sweta")
+    ) ;
+
    static List<Employee>  employees = List.of(
             new Employee("Siddhesh", 45222),
             new Employee("Santosh", 50222),

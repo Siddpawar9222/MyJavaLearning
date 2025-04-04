@@ -1,0 +1,4 @@
+Laptop,1200
+Phone,800
+TV,1500
+Headphones,100

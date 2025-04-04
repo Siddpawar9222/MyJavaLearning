@@ -1,4 +1,4 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.Arrays;
 import java.util.List;

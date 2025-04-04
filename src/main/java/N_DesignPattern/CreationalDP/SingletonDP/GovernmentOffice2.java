@@ -2,7 +2,7 @@ package N_DesignPattern.CreationalDP.SingletonDP;
 
 import java.io.Serializable;
 
-public class GovernmentOffice2 implements Serializable ,Cloneable {
+public class  GovernmentOffice2 implements Serializable ,Cloneable{
 
     private static GovernmentOffice2 governmentOffice2;
 

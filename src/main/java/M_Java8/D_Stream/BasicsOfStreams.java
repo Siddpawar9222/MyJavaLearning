@@ -1,11 +1,11 @@
-package M_Java8.D_Stream.New;
+package M_Java8.D_Stream;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.stream.Stream;
 
-import static M_Java8.D_Stream.New.EmployeeData.employees;
+import static M_Java8.D_Stream.EmployeeData.employees;
 
 public class BasicsOfStreams {
 
