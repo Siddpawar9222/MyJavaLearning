@@ -1,4 +1,4 @@
-package A_Basic;
+package A_Basic.TypeCasting;
 
 public class TypeCasting2 {
 
@@ -39,14 +39,14 @@ public class TypeCasting2 {
 
   2]Whole number literals (without any decimal point) are treated as integers by default. For example, 10 is treated as an int.
   
-  3] Types of typecasting : 
-     A] Implicit(Default) :
-        Done by java automatically 
+  3] Types of typecasting for primitive data types :
+     A] Implicit(Default or Widening) typecasting :
+        Done by java automatically,safe
         conversion of smaller value to larger value
         e.g. int to long , float to double etc
-     
-    B] Explicit typecasting : 
-         Developer has to do 
+
+    B] Explicit(narrowing) typecasting :
+         Developer has to do , not safe
          conversion of larger value to smaller value
          e.g.. long to int , double to float etc
 
@@ -75,5 +75,9 @@ public class TypeCasting2 {
 
   //* -- >
     (float)7/2 * 16/5 ==> 3.5 * 16/5 ==> 56.00/5 (According to Rule 5 ) ==> 11.2
-  
+
+      Typecasting  type for Objects :
+       Upcasting(Parent reference to Child object) : implicitly done by java : safe
+       Down-casting(Child reference to Parent object) : explicitly done by developer : not safe
+      I have mentioned this in OPPS.Objects.java file
    */

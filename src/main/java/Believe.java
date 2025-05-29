@@ -2,31 +2,16 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class Believe {
-    int maxWater(int arr[]){
-       int n = arr.length;
-       int waterTrapped = 0 ;
-        Stack<Integer> stack = new Stack<>(); // Element will store in increasing order
-        for (int i = 0; i < n; i++) {
-             // i = right
-             while (!stack.isEmpty() && stack.peek()<arr[i]){
-                  int middle = stack.pop();
-                  if(stack.isEmpty()){
-                       break;
-                  }
-                  int left = stack.peek();
-                  int distance = i - left -1 ;
-                  int minHeight = Math.min(arr[left],arr[i])-arr[middle];
-                  if(distance>0 && minHeight>0){
-                      waterTrapped += distance * minHeight;
-                  }
-             }
-             stack.push(i);
-        }
-
-        return waterTrapped;
-    }
     public static void main(String[] args) {
+         int a = 10 ;
+         int b = 45 ;
+         int result = a + b ;
 
+         int a1  = 45 ;
+         short b1 = 63 ;
+         double result1 = a1/b1 ;
+
+        System.out.println(a+b);
     }
 }
 /*
