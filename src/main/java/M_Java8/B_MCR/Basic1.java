@@ -26,8 +26,13 @@ interface ProductFactory {
 
 public class Basic1 {
     public static void main(String[] args) {
-       
-         // Using a constructor reference to create instances of Product
+
+        // Without constructor reference
+        ProductFactory pf = (name,price)-> new Product(name,price);
+
+        Product mobile = pf.createProduct("Mobile", 2152.54154);
+
+        // Using a constructor reference to create instances of Product
          ProductFactory factory = Product::new;
         
          // Create a new product using the factory

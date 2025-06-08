@@ -13,6 +13,8 @@ public class Basic2 {
         List<String> strings = Arrays.asList("hello", "world", "welcome");
         strings.stream().sorted(String::compareToIgnoreCase).forEach(System.out::println);//Example1
         strings.stream().filter(e->e.startsWith("A")).map(e->e.toUpperCase()).forEach(e->System.out.println(e));//Example 2
+
+        strings.stream().filter(e->e.startsWith("A")).map(e->e.toUpperCase()).forEach(e->System.out.println(e));//Example 2
  
 
     }
