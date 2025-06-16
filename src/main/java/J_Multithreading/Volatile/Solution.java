@@ -1,8 +1,8 @@
 package J_Multithreading.Volatile;
 
-public class Problem {
-    private static boolean flag = false;  // Not volatile → visibility issue!
-    private static int counter = 0;
+public class Solution {
+    private static volatile  boolean flag = false;  // Not volatile → visibility issue!
+    private static volatile  int counter = 0;
 
     public static void main(String[] args) throws InterruptedException {
         // Thread 1: Waits for flag to become true
@@ -38,22 +38,6 @@ public class Problem {
 }
 
 /*
-This code demonstrates a visibility issue with the `volatile` keyword in Java.
-When `flag` is not declared as `volatile`, the first thread may not see the update made by the second thread, leading to an infinite loop.
-
-Why is this a problem?
--flag is updated in Thread 2.
--But Thread 1 may be reading the old flag value from CPU cache, not from main memory.
--So Thread 1 keeps looping forever (infinite loop).
-This happens because:
--In Java, each thread has its own CPU cache (local copy of variables).
--If a variable is not marked volatile, Java does NOT guarantee visibility of changes between threads.
-
-Stale counter value:
-Since counter is not synchronized/volatile, its final value might be inconsistent between threads.
-
-Note :
-I commented out the print statements in the first thread because
-System.out.println(...) inside the loop causes memory flushes and I/O synchronization.
-This breaks the caching behavior, so Thread 1 gets the updated value of flag.
+Using `volatile` keyword:
+- Declaring `flag` and `counter` as `volatile` ensures that changes made by one thread are visible to others immediately.
 * */
