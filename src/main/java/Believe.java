@@ -1,17 +1,24 @@
-import java.util.Arrays;
-import java.util.Stack;
+class Solution {
+
+    int count = 0 ;
+
+    private int solve(int n, int from, int to, int aux) {
+        if (n == 0) {
+            return 0;
+        }
+
+        return 1 + solve(n - 1, from, aux, to) + solve(n - 1, aux, to, from);
+    }
+
+    public int towerOfHanoi(int n, int from, int to, int aux) {
+           return solve(n, from,to,aux);
+    }
+}
 
 public class Believe {
     public static void main(String[] args) {
-         int a = 10 ;
-         int b = 45 ;
-         int result = a + b ;
-
-         int a1  = 45 ;
-         short b1 = 63 ;
-         double result1 = a1/b1 ;
-
-        System.out.println(a+b);
+        Solution s = new Solution();
+        System.out.println(s.towerOfHanoi(3,1,2,3));
     }
 }
 /*
