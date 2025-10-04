@@ -56,4 +56,12 @@ Note :
 I commented out the print statements in the first thread because
 System.out.println(...) inside the loop causes memory flushes and I/O synchronization.
 This breaks the caching behavior, so Thread 1 gets the updated value of flag.
+
+
+Definition :
+In Java, volatile is a keyword you put before a variable.
+It means:
+   - Always read from main memory, not from thread’s local CPU cache.
+   - Always write directly to main memory, not just in cache.
+   - This guarantees visibility of changes across threads.
 * */

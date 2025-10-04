@@ -22,3 +22,9 @@ public class G_Threadyield {
 	}
 
 }
+/*
+It is a hint to the thread scheduler: “I am ready to pause, let other threads run if they want.”
+But it does not guarantee that another thread will get the CPU.
+The current thread may continue running if no other thread of the same/equal priority is waiting.
+It is used rarely in real-world apps (mostly for testing or demonstration).
+* */

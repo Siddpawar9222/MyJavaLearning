@@ -69,4 +69,4 @@ public class F_SleepThread {
 
 }
 
-//The method sleep() is being used to halt the working of a thread for a given amount of time.
+//The method sleep() is being used to halt/pause the working of a thread for a given amount of time.

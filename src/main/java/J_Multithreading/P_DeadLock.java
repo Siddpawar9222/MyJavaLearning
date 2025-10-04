@@ -56,5 +56,12 @@ At the same time, Person B realizes they need pen 1 and tries to pick it up but 
 
 Now, both people are stuck waiting for the other person to release the pen they need to proceed. This is a deadlock situation because neither person can make progress, and they remain deadlocked indefinitely.
 
-Today i am very happy.
+Definition :
+Deadlock happens when two or more threads are waiting for each other forever.
+    - Each thread has locked some resource.
+    - Each is waiting to get the other resource.
+    - But since no one releases, all threads get stuck.
+       Result: Program hangs.
+
+Fixes: lock ordering, timeouts (tryLock), better concurrency utilities, or detection + recovery.
 */

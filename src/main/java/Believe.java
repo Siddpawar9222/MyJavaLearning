@@ -1,24 +1,77 @@
-class Solution {
+class SharedBuffer {
+    private int data;
+    private boolean available = false;
 
-    int count = 0 ;
-
-    private int solve(int n, int from, int to, int aux) {
-        if (n == 0) {
-            return 0;
+    // Producer puts value in buffer
+    synchronized void produce(int value) throws InterruptedException {
+        while (available) {
+            wait(); // wait if data already available (buffer full)
         }
-
-        return 1 + solve(n - 1, from, aux, to) + solve(n - 1, aux, to, from);
+        data = value;
+        available = true;
+        System.out.println("Produced: " + value);
+        notify(); // notify consumer that data is ready
     }
 
-    public int towerOfHanoi(int n, int from, int to, int aux) {
-           return solve(n, from,to,aux);
+    // Consumer takes value from buffer
+    synchronized int consume() throws InterruptedException {
+        while (!available) {
+            wait(); // wait if buffer is empty
+        }
+        available = false;
+        System.out.println("Consumed: " + data);
+        //notify(); // notify producer that buffer is empty
+        return data;
+    }
+}
+
+class Producer extends Thread {
+    private final SharedBuffer buffer;
+
+    Producer(SharedBuffer buffer) {
+        this.buffer = buffer;
+    }
+
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            try {
+                buffer.produce(i);
+                Thread.sleep(500); // simulate some delay
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+class Consumer extends Thread {
+    private final SharedBuffer buffer;
+
+    Consumer(SharedBuffer buffer) {
+        this.buffer = buffer;
+    }
+
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            try {
+                buffer.consume();
+                Thread.sleep(1000); // simulate slower consumption
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }
 
 public class Believe {
     public static void main(String[] args) {
-        Solution s = new Solution();
-        System.out.println(s.towerOfHanoi(3,1,2,3));
+        SharedBuffer buffer = new SharedBuffer();
+
+        Producer producer = new Producer(buffer);
+        Consumer consumer = new Consumer(buffer);
+
+        producer.start();
+        consumer.start();
     }
 }
 /*

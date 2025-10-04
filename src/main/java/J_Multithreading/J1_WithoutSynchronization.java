@@ -38,8 +38,11 @@ public class J1_WithoutSynchronization {
 
         // Wait for both threads to complete
         try {
+            System.out.println("Starting Thread1.....");
             thread1.join();
+            System.out.println("Thread1 finished. Now waiting for Thread2....");
             thread2.join();
+            System.out.println("Both threads finished. Continuing main...");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

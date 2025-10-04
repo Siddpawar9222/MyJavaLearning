@@ -38,6 +38,7 @@ public class J2_WithoutSynchronization {
                 counter2.increment();
             }
         });
+
         Thread thread4 = new Thread(() -> {
             for (int i = 0; i < 1000; i++) {
                 counter2.increment();

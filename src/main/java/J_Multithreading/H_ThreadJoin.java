@@ -46,3 +46,6 @@ public class H_ThreadJoin {
 	}
 
 }
+/*
+*definite wait, used when one thread must finish before another continues.(dependency task)
+* */

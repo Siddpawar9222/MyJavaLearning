@@ -31,7 +31,7 @@ public class AtomicProblem {
 What is Atomicity?
 An operation is atomic if it cannot be broken — it is completed fully or not at all, without interference from other threads.
 
-s counter++ Atomic?
+Is counter++ Atomic?
 NO! It looks simple, but it’s not atomic.
 
 Internally, counter++ is actually 3 steps:

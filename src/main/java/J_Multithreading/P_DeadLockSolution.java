@@ -23,7 +23,7 @@ public class P_DeadLockSolution {
 
 		Thread personB = new Thread(() -> {
 			synchronized (pen1) {
-				System.out.println("Person B picked up pen 2");
+				System.out.println("Person B picked up pen 1");
 				try {
 					Thread.sleep(100);
 				} catch (InterruptedException e) {
@@ -31,7 +31,7 @@ public class P_DeadLockSolution {
 				}
 
 				synchronized (pen2) {
-					System.out.println("Person B picked up pen 1");
+					System.out.println("Person B picked up pen 2");
 				}
 			}
 		});
