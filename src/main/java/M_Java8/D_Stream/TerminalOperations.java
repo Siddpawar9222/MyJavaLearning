@@ -1,9 +1,6 @@
 package M_Java8.D_Stream;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 import static M_Java8.D_Stream.EmployeeData.employees;
@@ -113,6 +110,14 @@ public class TerminalOperations {
 
         minSalaryEmp.ifPresent(emp -> System.out.println("Employee with Min Salary: " + emp.name));
         maxSalaryEmp.ifPresent(emp -> System.out.println("Employee with Max Salary: " + emp.name));
+
+
+        /*
+        * toArray() : used to convert a List into an Array.
+        * new int[temp.size()][]  :  we passed empty array to fill with row =temp.size() and col = unknown(we can pass as well like 2)
+        * */
+        List<int[]> temp = new ArrayList<>();
+        int[][] array = temp.toArray(new int[temp.size()][]);
 
     }
 }

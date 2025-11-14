@@ -1,9 +1,9 @@
-package G_OOPS1;
+package G_OOPS1.Generics;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ObjectVsWildCard1 {
+public class B_ObjectVsWildCard1 {
     public static void main(String[] args) {
          /*
         ✅  What is Object in Java?

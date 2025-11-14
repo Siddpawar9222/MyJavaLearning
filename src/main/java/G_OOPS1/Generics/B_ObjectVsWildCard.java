@@ -1,8 +1,8 @@
-package G_OOPS1;
+package G_OOPS1.Generics;
 
 import java.util.ArrayList;
 
-public class ObjectVsWildCard {
+public class B_ObjectVsWildCard {
     public static void main(String[] args) {
 
         /*
