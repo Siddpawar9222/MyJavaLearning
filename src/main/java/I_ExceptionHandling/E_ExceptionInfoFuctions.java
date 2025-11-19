@@ -17,7 +17,7 @@ public class E_ExceptionInfoFuctions {
 /*
 printStackTrace():
 This void method prints exception information in the format of Name of the exception:description of the exception, stacktrace.
-toString():
+//toString():
 This method prints exception information in the format of Name of the exception: description of the exception.
 getMessage():
 This method prints only the description of the exception.

@@ -76,10 +76,6 @@ Object as a box that can hold anything, but you don’t know what’s inside unl
 ? as a locked mystery box. You can see what’s inside, but you can’t put anything into it, because you don’t know what type it accepts.
 
 
-
-Exactly! ✅ You understood it perfectly!
-Let me explain it clearly in simple English, related to Spring Boot and generics.
-
 💡 Why ? is used in Spring Boot (like in ResponseEntity<?>)?
 In Spring Boot controllers, you often see code like:
 

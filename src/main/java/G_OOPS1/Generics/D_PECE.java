@@ -34,7 +34,7 @@ public class D_PECE {
                 List<Float>
 
             Why read only?
-                Because the compiler doesn't know the exact subtype.
+                Because the compiler doesn't know the exact subtype(It can be Integer,Double,Float etc). That's why write not allowed(As ? doesnt allow write)
                 You can only safely treat elements as Number.
 
             nums.get(0);   // ✔ allowed (as Number)
@@ -59,7 +59,10 @@ public class D_PECE {
                 List<Object>
 
             Why write allowed?
-                Because all these can store Integer safely.
+                Because all these can store Integer safely.(Only Integer allowed not Number and Object)
+                Integer fits into Integer ✔
+                Integer fits into Number ✔
+                Integer fits into Object ✔
 
             list.add(10);   // ✔ allowed
             list.get(0);    // ✔ allowed but returns Object

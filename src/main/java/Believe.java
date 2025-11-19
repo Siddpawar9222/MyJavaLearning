@@ -2,44 +2,17 @@ import java.sql.Array;
 import java.util.*;
 
 public class Believe {
-    public int[][] insert(int[][] intervals, int[] newInterval) {
-        int n = intervals.length;
 
-        int i = 0;
+    public static void main(String[] args) {
+        //PECS
+        List<? super Number> l1   ;
 
-        // new interval start and end pointers
-        int start = newInterval[0];
-        int end = newInterval[1];
+        List<Object> l2 = new ArrayList<>();
+        l2.add(45);
+        l2.add(46);
 
-        List<int[]> temp = new ArrayList<>();
+        l1 = l2 ;
 
-        while (i < n) {
-            int currStart = intervals[i][0];
-            int currEnd = intervals[i][1];
-
-            if (start > currEnd) {
-                temp.add(new int[]{currStart, currEnd});
-            } else if (end < currStart) {
-                break;
-            } else {  // overlapping conditions
-                start = Math.min(start, currStart);
-                end = Math.max(end, currEnd);
-            }
-
-            i++;
-        }
-
-        // break conditions remaining non-overlapping intervals
-        while (i < n) {
-            temp.add(intervals[i]);
-            i++;
-        }
-
-
-        int[][] array = temp.toArray(new int[temp.size()][]); // we gave 2D array to add this elements. [] = unknown column size
-
-
-        return array;
     }
 }
 /*

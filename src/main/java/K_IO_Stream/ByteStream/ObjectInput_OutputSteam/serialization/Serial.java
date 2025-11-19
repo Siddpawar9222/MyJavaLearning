@@ -12,7 +12,7 @@ public class Serial {
 			Student student = new Student("Siddhesh Pawar", "sidd@email.com", "Korahle Khurd", 23);
             
 			//write data in file
-			FileOutputStream fos = new FileOutputStream("src/K_FileHandling/serialization/output.txt");
+            FileOutputStream fos = new FileOutputStream("src/K_FileHandling/serialization/output.txt");
 			
 			ObjectOutputStream oos = new ObjectOutputStream(fos) ;   //* 
 			
