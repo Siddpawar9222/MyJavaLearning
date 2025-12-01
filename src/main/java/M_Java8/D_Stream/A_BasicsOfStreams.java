@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import static M_Java8.D_Stream.EmployeeData.employees;
 
-public class BasicsOfStreams {
+public class A_BasicsOfStreams {
 
     public static void main(String[] args) {
         // Create Stream from list and set using stream method
@@ -43,7 +43,7 @@ public class BasicsOfStreams {
                 .forEach(System.out::println);
 
         Stream.iterate(1001, n -> n + 1) // Start from 1001, increase by 1
-                .limit(5)
+                .limit(5)    // stop after first five elements (first five elements)
                 .forEach(System.out::println);
 
 

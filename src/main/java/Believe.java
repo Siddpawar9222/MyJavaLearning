@@ -1,19 +1,11 @@
+import M_Java8.D_Stream.Employee;
+
 import java.sql.Array;
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Believe {
-
-    public static void main(String[] args) {
-        //PECS
-        List<? super Number> l1   ;
-
-        List<Object> l2 = new ArrayList<>();
-        l2.add(45);
-        l2.add(46);
-
-        l1 = l2 ;
-
-    }
 }
 /*
 https://leetcode.com/problems/grumpy-bookstore-owner/solutions/

@@ -51,7 +51,7 @@ public class Student implements Serializable {
 	
      
 }
-// transient - Particular state(variable) will not take not in serialization and deserialization . We can use only for variables(object)
+// transient - Particular state(variable) will not take not in serialization and deserialization . We can use only for variables(object). static marked field doesnt take part serialization process.
 
 /*
 Serializable interface- 
