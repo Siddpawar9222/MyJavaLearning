@@ -1,4 +1,4 @@
-package J_Multithreading.concurrency.InheritableThreadLocal;
+package J_Multithreading.concurrency._02InheritableThreadLocal;
 
 public class Main {
     private final static InheritableThreadLocal<String> userContext = new InheritableThreadLocal<>();

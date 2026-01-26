@@ -118,7 +118,18 @@ This wakes all waiting threads on that object.
 Then they all compete for the lock, and whichever wins will proceed first.
 Others will still wait until they get the lock.
 
+consume()
+ ├─ while (!available)
+ │    └─ wait()  ← thread sleeps here
+ │
+ ├─ available = false
+ ├─ print
+ └─ return
 
+
+Thread freezes at wait()
+Thread resumes just after wait()
+when thread wake up then again it check flag(other consumer might have consume it thats why) and hence we used while loop here
 
 Why while loop instead of if loop ?
 

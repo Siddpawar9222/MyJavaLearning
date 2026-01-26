@@ -1,4 +1,4 @@
-package J_Multithreading.concurrency.producer_consumer;
+package J_Multithreading.concurrency._04producer_consumer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

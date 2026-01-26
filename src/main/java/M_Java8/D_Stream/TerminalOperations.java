@@ -83,7 +83,7 @@ public class TerminalOperations {
         firstHighSalary.ifPresent(emp -> System.out.println("First High Salary Employee: " + emp.name));
 
         /*
-        6. count(Comparator)
+        6. count()
         Counts the number of elements in the stream.
         Example (Industrial Use Case - Counting Employees with High Salary)
         * */
@@ -123,4 +123,6 @@ public class TerminalOperations {
 }
 /*
 terminal operations consume the stream and produce a result (like a collection, a single value, or a boolean).
+stream().toList() → Immutable List
+Collectors.toList() → Mutable List
 */

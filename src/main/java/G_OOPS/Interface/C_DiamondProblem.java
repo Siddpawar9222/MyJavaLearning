@@ -29,18 +29,18 @@ interface C extends A {
 
 class D implements B, C {
 
-    // provided custom implementation
+     // custom implementation
 //     @Override
-//     public void doSomething(){
-//            System.out.println("D's doing something");
-//     }
+     public void doSomething() {
+            System.out.println("D's doing something");
+     }
 
-    // Lets suppose i want to call either B's or C's or both
-    @Override
-    public void doSomething() {
-        B.super.doSomething();
-        C.super.doSomething();
-    }
+    // Lets suppose i want to call either B's or C's or both (parent implementation)
+//    @Override
+//    public void doSomething() {
+//        B.super.doSomething();
+//        C.super.doSomething();
+//    }
 
 
 }
@@ -49,14 +49,18 @@ class D implements B, C {
 public class C_DiamondProblem {
     public static void main(String[] args) {
         A d = new D();
-        d.doSomething();
+        //d.doSomething();
+
+        D d1 = new D();
+        d1.doSomething();
     }
 }
 
 
 /*
 Problem :
-- Both B and C are implementing A and has same method doSomething(). if D class implements both B and C then it will give compilation error because compiler does not know which method should be used(compiler is confused here).
+- Both B and C are implementing A and has same method doSomething(). if D class implements both B and C then it will give compilation error because compiler does not know which method should be used(compiler is confused here). Comment down both custom implementation and
+parent implementation to see error. if you remove one of B or C implementation then no error .
 -  If either B or C would not have same method doSomething() then D class would not given that compilation error.
 
 Solution :

@@ -1,4 +1,4 @@
-package J_Multithreading.concurrency.ThreadLocal;
+package J_Multithreading.concurrency._01ThreadLocal;
 
 public class Main {
     private static final ThreadLocal<String> userThreadLocal = new ThreadLocal<>();

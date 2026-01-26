@@ -8,7 +8,7 @@ package G_OOPS.Inheritance;
 //We can provide as many constructors as we want within the class and use constructor chaining to set the link among them.
 
 class GrandParent{
-	public GrandParent() {
+	 public GrandParent() {
 		System.out.println("Default(0 Para) Grandparent constructor........");
 	 }
 	public GrandParent(String name ,int id ) {

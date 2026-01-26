@@ -61,6 +61,11 @@ public class B_TypesOfException {
          A class is removed or renamed after compilation.
          Classpath issues after JAR updates.
 
+
+      In short :
+         ClassNotFoundException occurs when JVM tries to load a class dynamically and cannot find it in the classpath.
+         NoClassDefFoundError occurs when a class was present during compilation but is missing or fails during runtime.
+
 Note :
 Checked exceptions are verified at compile time, meaning the Java compiler forces you to handle them using a try-catch block or declare them in a throws clause.
 At compile-time, the compiler does not check whether the class exists in the classpath because:

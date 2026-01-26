@@ -39,7 +39,7 @@ public class H_ThreadJoin {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("Driving Test ending in " + i + " sec");
+			System.out.println(STR."Driving Test ending in \{i} sec");
 
 		}
 

@@ -101,4 +101,7 @@ public class IntermediateOperations {
 }
 /*
 Intermediate operations are lazy operations that transform a stream into another stream. They don’t execute immediately—they only run when a terminal operation (like collect(), forEach(), count()) is applied.
+
+map : map transforms data ,e.g, one type to another. uppercase each string
+flatMap : One element produces multiple elements,And you want one single stream, not nested. e.g. students has skill list and want all list in stream
 * */

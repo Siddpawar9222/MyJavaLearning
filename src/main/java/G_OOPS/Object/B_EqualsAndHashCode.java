@@ -109,4 +109,14 @@ toString() method :
 - Which means By default it returns a string containing the class name and the memory address of the object.   
     
 
+hashCode() :
+- By default, Object.hashCode() returns an integer that is generally derived from the object’s memory address, but Java does NOT guarantee it to be the actual memory address.
+- We can customize hashCode() using Objects.hash() or our own logic
+@Override
+public int hashCode() {
+    return Objects.hash(id, name);
+}
+
+-HashSet internally use this hashcode for hashfuction, which return the bucket index and using equals() method, we compare the object by the given field.
+
  */

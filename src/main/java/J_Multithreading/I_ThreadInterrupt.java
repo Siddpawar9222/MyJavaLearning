@@ -47,7 +47,7 @@ public class I_ThreadInterrupt {
 }
 /*
  Methods :
- interrupt() : interrupt the thread gracefully using following methods, before this method java had stop() method
+ interrupt() : interrupt/stop the thread gracefully using following methods, before this method java had stop() method
  which forcefully shut the thread, now deprecated
  isInterrupted() : Check whether thread is interrupted or not
  interrupted()  :  Static method that checks whether the current thread has been interrupted and clears the interrupted status.

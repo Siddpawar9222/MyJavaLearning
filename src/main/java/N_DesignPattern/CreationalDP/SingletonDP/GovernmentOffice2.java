@@ -48,7 +48,7 @@ Before returning that object, JVM checks:
 Does this class have a readResolve() method?
 If yes → JVM ignores the new object and returns the object provided by readResolve()
 
-🔥 In simple words:
+In simple words:
 
 readResolve() replaces the deserialized object with the existing Singleton instance.
  */
