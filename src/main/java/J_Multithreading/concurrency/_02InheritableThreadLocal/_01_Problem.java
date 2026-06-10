@@ -1,6 +1,6 @@
 package J_Multithreading.concurrency._02InheritableThreadLocal;
 
-public class Problem {
+public class _01_Problem {
     private static final ThreadLocal<String> userContext  = new ThreadLocal<>() ;
     public static void main(String[] args) {
          userContext.set("Parent Thread");   //current thread

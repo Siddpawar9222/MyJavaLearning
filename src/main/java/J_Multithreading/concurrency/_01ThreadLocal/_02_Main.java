@@ -1,6 +1,6 @@
 package J_Multithreading.concurrency._01ThreadLocal;
 
-public class Main {
+public class _02_Main {
     private static final ThreadLocal<String> userThreadLocal = new ThreadLocal<>();
     public static void main(String[] args) {
         userThreadLocal.set("user1");

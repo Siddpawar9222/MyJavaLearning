@@ -3,7 +3,7 @@ package J_Multithreading.concurrency._03ExecutorService;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class FixedThreadPoolExample {
+public class _02_FixedThreadPoolExample {
     public static void main(String[] args) {
         ExecutorService fixedExecutorService = Executors.newFixedThreadPool(2); // 2 threads
         for (int i = 0; i < 9; i++) {

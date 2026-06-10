@@ -1,7 +1,40 @@
 import java.util.*;
 
 public class Believe {
-    int a;
+
+
+    Set<String> uniqueValidateStrings = new HashSet<>();
+
+
+    private void solve(int idx, int n, int k, StringBuilder sb, int sum, List<String> ans) {
+        // if sum greater than k or udx greater than k
+        if (sum > k || idx > k) {
+            return;
+        }
+
+        // add  valid string in ans
+        ans.add(sb.toString());
+
+        for (int i = idx; i < n; i++) {
+            sb.setCharAt(i, '1');
+            solve(idx + 2, n, k, sb, sum + i, ans);
+            sb.setCharAt(i, '0'); // backtracking
+        }
+    }
+
+    public List<String> generateValidStrings(int n, int k) {
+        List<String> ans = new ArrayList<>();
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < n; i++) {
+            sb.append('0');
+        }
+
+        solve(0, n, k, sb, 0, ans);
+
+        return ans;
+    }
 
     public static void main(String[] args) {
 //        int x = 1_10_152;  // provides readability
@@ -11,99 +44,14 @@ public class Believe {
 
         Believe b = new Believe();
 
-        final int a = 10;
-        //a = 10 ;
-        //System.out.println(a);
-        List<Integer> list = new ArrayList<>(
-                List.of(100, 463, 50, 975, 63, 78)
-        );
+        int n = 3;
+        int k = 1;
 
-        List<String> strList = new ArrayList<>(
-                List.of("Name", "Siddhesh", "Pawar", "Java")
-        );
+        System.out.println(b.generateValidStrings(n, k));
 
-        strList.stream()
-                .sorted((s1, s2) -> s1.charAt(1) - s2.charAt(1)).forEach(System.out::println);
 
-//        Collections.sort(list);
-//        System.out.println(list);
-//
-//        Integer result = list.stream()
-//                .sorted(Comparator.reverseOrder())
-//                .skip(1)
-//                .findFirst()
-//                .orElse(null);
-//
-//        System.out.println(result);
-        int[] nums = {2, -3};
-        System.out.println(b.vowelConsonantScore("axeyizou"));
     }
 
-
-    private boolean isVowel(char ch) {
-        return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
-    }
-
-    public int vowelConsonantScore(String s) {
-        int v = 0;
-        int c = 0;
-        for (char ch : s.toCharArray()) {
-            if (Character.isAlphabetic(ch)) {
-                if (isVowel(ch)) {
-                    v++;
-                } else {
-                    c++;
-                }
-            }
-        }
-        return c > 0 ? Math.floorDiv(v, c) : 0;
-    }
-
-
-    public List<List<Integer>> minimumAbsDifference(int[] arr) {
-        Arrays.sort(arr);
-        Map<Integer, List<List<Integer>>> map = new HashMap<>();
-
-        for (int i = 1; i < arr.length; i++) {
-            int a = arr[i - 1];
-            int b = arr[i];
-
-            int diff = Math.abs(b - a);
-            List<List<Integer>> pairs;
-            if (!map.containsKey(diff)) {
-                pairs = new ArrayList<>();
-            } else {
-                pairs = map.get(diff);
-            }
-            pairs.add(List.of(a, b));
-            map.put(diff, pairs);
-        }
-
-        int minDiff = Integer.MAX_VALUE;
-        List<List<Integer>> ans = new ArrayList<>();
-        for (int i = 1; i < arr.length; i++) {
-
-            int a = arr[i - 1];
-            int b = arr[i];
-
-            int currDiff = Math.abs(b - a);
-
-            if(currDiff<minDiff){
-                  minDiff = currDiff;
-                  ans.clear();
-            }
-            ans.add(List.of(a,b));
-        }
-
-        return ans;
-    }
-
-
-    /*
-     Brute force : Use two loops and  define s and t , check for every character s.charAt(i) - t.charAt(i) is same
-     Optimal :
-     Normalize every string w.r.t char 'a'
-    *  */
 
 }
 /*

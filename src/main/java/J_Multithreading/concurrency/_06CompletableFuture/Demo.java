@@ -9,15 +9,16 @@ public class Demo {
 //            return "Hello from CompletableFuture";
 //        });
 //
+//
 //        System.out.println("Result " + greetingFuture.get());
 //        System.out.println("Main Method Ended.....");
 
-        CompletableFuture<Void> future =
-                CompletableFuture.runAsync(() -> {
-                    System.out.println("Task running in thread: " + Thread.currentThread().getName());
-                });
-        future.join();
-        System.out.println("Main thread finished");
+//        CompletableFuture<Void> future =
+//                CompletableFuture.runAsync(() -> {
+//                    System.out.println("Task running in thread: " + Thread.currentThread().getName());
+//                });
+//        future.join();
+//        System.out.println("Main thread finished");
 
 
 //                CompletableFuture.runAsync(() -> {

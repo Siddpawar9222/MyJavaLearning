@@ -31,10 +31,10 @@ public class I_ThreadInterrupt {
 
 	public static void main(String[] args) throws InterruptedException {
 
-		IWorker0 iWorker0 = new IWorker0();
-		iWorker0.start();
-		Thread.sleep(2000);
-		iWorker0.interrupt();
+//		IWorker0 iWorker0 = new IWorker0();
+//		iWorker0.start();
+//		Thread.sleep(2000);
+//		iWorker0.interrupt();
 
 
 		IWorker iWorker = new IWorker();
@@ -42,6 +42,8 @@ public class I_ThreadInterrupt {
 
 		Thread.sleep(5000);
 		iWorker.interrupt();
+
+		System.out.println("Main Thread Ended.........");
 	}
 
 }

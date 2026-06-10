@@ -1,7 +1,8 @@
-package J_Multithreading.concurrency._04producer_consumer;
+package J_Multithreading.concurrency._04Producer_Consumer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class ProducerConsumerExample {
     public static void main(String[] args) {

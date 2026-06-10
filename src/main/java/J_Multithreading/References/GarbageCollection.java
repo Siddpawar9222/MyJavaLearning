@@ -11,9 +11,9 @@ class Cricketer{
 }
 public class GarbageCollection {
     public static void main(String[] args) throws Throwable {
-        // Cricketer c = new Cricketer();
-        // c = null ; // 1.By assigning a null 
-        //System.gc();
+         Cricketer c = new Cricketer();
+         c = null ; // 1.By assigning a null
+        System.gc();
 
         //  Cricketer c1 = new Cricketer();
         //  Cricketer c2 = new Cricketer();
@@ -28,8 +28,8 @@ public class GarbageCollection {
 /*
 Eligibility Criteria for Garbage Collection in Java :
 1.By assigning a null
-//2 .Reference to other another
-//3.By anonymous object 
+2.Reference to other another
+3.By anonymous object
 
 
 gc() : static method in System and Runtime class
