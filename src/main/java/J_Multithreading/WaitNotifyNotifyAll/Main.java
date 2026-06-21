@@ -106,8 +106,8 @@ It will just sit there, doing nothing, until someone calls notify() or notifyAll
 
 
 notify() work?
-When one thread calls notify() on the same object, it wakes up one waiting thread (not all).
-The choice of which thread gets awakened is made by the JVM (not you). You can’t guarantee which one if multiple threads are waiting.
+When one thread calls notify() on the same object, it wakes up any one random waiting thread (not all).
+The choice of which thread gets awakened is made by the JVM (not you). You can’t guarantee which one if multiple threads are waiting.(it can be producer and consumer both waiting and you call notify() then you can’t guarantee which one will wake up)
 The awakened thread doesn’t start running immediately.
       It first competes to re-acquire the lock on that object.
       only after it gets the lock, it continues execution right after wait().
