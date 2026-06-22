@@ -47,4 +47,5 @@ public class Basic {
 - We have created three thread and trying to access one common resources, Just like synchronized keyword do
 - Now it works same like synchronized but we are appliying lock using ReentrantLock.
 - Run Program multiple times i found out How thread starvation look (waiting thread0, thread1, thread2 , but lock get randomnly, decided by CPU + JVM)
+- We wrote here try,catch finally because exceuting code throws error , lock must release otherwise , thread will not relase lock and deadlock condition will occurs.
 * */
