@@ -35,4 +35,18 @@ Not really thread-safe for request scope
 Not the right abstraction
     The user info is not global shared data, it’s per request/per thread data.
     That matches ThreadLocal’s job perfectly.
+
+
+
+ Thread-7
+   |
+   +---- ThreadLocalMap
+             |
+             +---- (TenantContext -> School-A)
+
+Thread-11
+   |
+   +---- ThreadLocalMap
+             |
+             +---- (TenantContext -> School-B)   
  * */
