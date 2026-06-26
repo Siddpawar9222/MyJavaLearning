@@ -1,4 +1,4 @@
-package J_Multithreading._07_ThreadLocal;
+package J_Multithreading._01_Foundation._06_garbage_collector;
 
 class Cricketer{
     public Cricketer(){
@@ -9,7 +9,7 @@ class Cricketer{
       System.out.println("Object is Destroyed...");
     }
 }
-public class _05_GarbageCollectionDemo {
+public class _02_GarbageCollectionDemo {
     public static void main(String[] args) throws Throwable {
          Cricketer c = new Cricketer();
          c = null ; // 1.By assigning a null
@@ -49,5 +49,5 @@ Why Java Had Gave gc() and finalize method since GC is being automatic process  
 - manual intervention for garbage collection is deemed necessary, although it's typically not recommended to rely heavily on manual garbage collection calls.
 
 Modern Java achieves efficient garbage collection without relying on the finalize() method by leveraging advanced algorithms, concurrent collection techniques, and configurable options provided by the JVM. This approach improves memory management, reduces pause times, and enhances overall application performance.
-
+garbage collection
  */

@@ -1,11 +1,11 @@
-package J_Multithreading._07_ThreadLocal;
+package J_Multithreading._01_Foundation._06_garbage_collector;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.ReferenceQueue;
 import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 
-public class _04_ReferenceTypesDemo {
+public class _03_ReferenceTypesDemo {
     public static void main(String[] args) {
         MyObject myObject = new MyObject();  //default type
 

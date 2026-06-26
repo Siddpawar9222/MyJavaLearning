@@ -1,4 +1,4 @@
-package J_Multithreading._02_Thread_Basics;
+package J_Multithreading._03_Synchronization;
 
 //Interthread Commumication
 
@@ -68,7 +68,7 @@ class Consumer extends Thread {
     }
 }
 
-public class _05_WaitNotifyDemo {
+public class _03_WaitNotifyDemo {
     public static void main(String[] args) {
         SharedBuffer buffer = new SharedBuffer();
 

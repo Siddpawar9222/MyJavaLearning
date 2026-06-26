@@ -1,8 +1,8 @@
-package J_Multithreading._12_Performance;
+package J_Multithreading._03_Synchronization;
 
 import java.util.Random;
 
-public class _02_LivelockSolved {
+public class _07_LivelockSolved {
 
     static volatile boolean personAOnLeft = true;
     static volatile boolean personBOnLeft = true;

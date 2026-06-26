@@ -1,6 +1,6 @@
-package J_Multithreading._12_Performance;
+package J_Multithreading._03_Synchronization;
 
-public class _01_LivelockDemo {
+public class _06_LivelockDemo {
 
     static volatile boolean personAOnLeft = true;
     static volatile boolean personBOnLeft = true;

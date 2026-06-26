@@ -1,4 +1,4 @@
-package J_Multithreading._07_ThreadLocal;
+package J_Multithreading._01_Foundation._06_garbage_collector;
 
 class MyObject {
     String name;
@@ -8,7 +8,7 @@ class MyObject {
     }
 }
 
-public class _03_GarbageCollectionBasic {
+public class _01_GarbageCollectionBasic {
     public static void main(String[] args) {
         // Create an object
         MyObject myObject = new MyObject();

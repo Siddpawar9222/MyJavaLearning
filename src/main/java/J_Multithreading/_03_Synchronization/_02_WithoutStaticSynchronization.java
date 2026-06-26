@@ -5,7 +5,7 @@ package J_Multithreading._03_Synchronization;
 class Counter1 {
     static int count = 0;
 
-   synchronized void increment() {
+    synchronized void increment() {
         count++;
     }
 
