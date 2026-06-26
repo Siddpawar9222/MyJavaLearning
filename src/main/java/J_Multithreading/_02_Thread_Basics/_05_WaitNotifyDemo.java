@@ -103,6 +103,7 @@ java.lang.IllegalMonitorStateException
 wait() Work?
 A thread calls wait() on an object → it releases the lock and goes into the waiting state.
 It will just sit there, doing nothing, until someone calls notify() or notifyAll() on the same object.
+Belongs to object, relase lock and must be inside synchronised context.
 
 
 notify() work?

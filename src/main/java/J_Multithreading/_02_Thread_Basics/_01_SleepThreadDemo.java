@@ -69,4 +69,8 @@ public class _01_SleepThreadDemo {
 
 }
 
-//The method sleep() is being used to halt/pause the working of a thread for a given amount of time.
+/*
+- The method sleep() is being used to halt/pause the working of a thread for a given amount of time.
+- Belongs to Thread
+- Does not release lock of object.
+*/
