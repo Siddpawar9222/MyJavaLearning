@@ -1,4 +1,4 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._001_ReentrantLock;
 
 class MyLock {
 

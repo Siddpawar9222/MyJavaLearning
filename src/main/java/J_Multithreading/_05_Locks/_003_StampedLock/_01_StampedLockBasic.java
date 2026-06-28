@@ -1,6 +1,6 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._003_StampedLock;
 
-public class _10_StampedLockBasic {
+public class _01_StampedLockBasic {
 }
 /*
 - If there are 90% reader operation and 10% write operation, Still for read we are unnecessary lock and unlock the object which is waste of resource. Hence, stampedLock came. It provides optimistic read feature.

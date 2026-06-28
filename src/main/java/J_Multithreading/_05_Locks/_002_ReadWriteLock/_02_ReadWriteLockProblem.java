@@ -1,4 +1,4 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._002_ReadWriteLock;
 
 
 import java.util.concurrent.locks.Lock;
@@ -40,7 +40,7 @@ class SharedResource {
     }
 }
 
-public class _08_ReadWriteLockProblem {
+public class _02_ReadWriteLockProblem {
     static void main() throws InterruptedException {
         SharedResource sharedResource = new SharedResource();
 

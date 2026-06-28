@@ -1,10 +1,10 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._003_StampedLock;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.locks.StampedLock;
 
-public class _12_StampedLockConfigCache {
+public class _03_StampedLockConfigCache {
 
     private final Map<String, String> cache =
             new HashMap<>();

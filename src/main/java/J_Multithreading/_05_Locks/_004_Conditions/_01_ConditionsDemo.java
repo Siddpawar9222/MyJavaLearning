@@ -1,4 +1,4 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._004_Conditions;
 
 
 
@@ -113,7 +113,7 @@ class Consumer implements Runnable {
     }
 }
 
-public class _06_ConditionsDemo {
+public class _01_ConditionsDemo {
     static void main() {
         int capacity = 3;
         SharedBufferWithCondition buffer = new SharedBufferWithCondition(capacity);

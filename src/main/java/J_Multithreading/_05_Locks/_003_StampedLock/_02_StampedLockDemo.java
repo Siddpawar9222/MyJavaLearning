@@ -1,8 +1,8 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._003_StampedLock;
 
 import java.util.concurrent.locks.StampedLock;
 
-public class _11_StampedLockDemo {
+public class _02_StampedLockDemo {
 
     private static String config = "jdbc:mysql://localhost:3306/app";
 

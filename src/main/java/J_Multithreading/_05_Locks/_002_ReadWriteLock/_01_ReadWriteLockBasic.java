@@ -1,6 +1,6 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._002_ReadWriteLock;
 
-public class _07_ReadWriteLockBasic {
+public class _01_ReadWriteLockBasic {
 }
 /*
  * So far we have seen only one thread can acquire an object and no other thread can enter at the same time

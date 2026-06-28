@@ -1,4 +1,4 @@
-package J_Multithreading._05_Locks;
+package J_Multithreading._05_Locks._002_ReadWriteLock;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -55,7 +55,7 @@ class CacheRefresh {
 }
 
 
-public class _09_LockDowngradeDemo {
+public class _03_LockDowngradeDemo {
 
     public static void main(String[] args) {
 
