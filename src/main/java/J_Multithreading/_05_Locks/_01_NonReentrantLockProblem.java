@@ -2,7 +2,7 @@ package J_Multithreading._05_Locks;
 
 class MyLock {
 
-    private boolean locked = false;
+    private volatile boolean locked = false;
 
     public synchronized void lock() throws InterruptedException {
 

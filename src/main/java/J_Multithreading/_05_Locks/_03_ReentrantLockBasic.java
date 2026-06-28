@@ -13,7 +13,7 @@ class Resources {
 
             System.out.println(Thread.currentThread().getName());
 
-            Thread.sleep(5000);
+            Thread.sleep(2000);
         } catch (Exception e) {
             System.out.println("Exception occurred");
         } finally {

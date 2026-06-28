@@ -21,6 +21,6 @@ public class _04_ReentrantLockFairness {
     }
 }
 /*
-- We already saw(In Basic.java) starvation problem, Most waiting Thread sometimes don't get lock (FIFO behavior). It is totally depends on upons OS+CPU+JVM
+- We already saw(In _03_ReentrantLockBasic.java) starvation problem, Most waiting Thread sometimes don't get lock (FIFO behavior). It is totally depends on upons OS+CPU+JVM
 - Using ReentrantLock we can enable FIFO. Still it is approximate behavior doesn't guarantee 100% accuracy.
 * */
